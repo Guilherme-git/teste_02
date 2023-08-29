@@ -5,7 +5,7 @@ Este teste realiza uma consulta na api do github, trazendo as informações do u
 
 No teste consta uma tabela para armazenar as pesquisas feitas pelo cep e também um input html para o usuário digitar o cep.
 
-No momento que o usuário terminar de digitar o cep, e clicar no botão de cor verde chamado **PESQUISAR**, é feita uma validação se o valor do input não está vazio. Caso tudo ocorrer bem, é então realizada a consulta na api utilizando o fetch, caso o usuário não seja encontrado, é mostrada a mensagem para o usuário, caso o usuário for encontrado, é mostrado o nome do usuário, um botão para acessar o perfil do usuário no github e por último, uma listagem de todos os repositórios do usuário.
+No momento que o usuário terminar de digitar o nome de usuário que deseja, e clicar no botão de cor verde chamado **PESQUISAR**, é feita uma validação se o valor do input não está vazio. Caso tudo ocorrer bem, é então realizada a consulta na api utilizando o fetch, caso o usuário não seja encontrado, é mostrada a mensagem para o usuário, caso o usuário for encontrado, é mostrado o nome do usuário, um botão para acessar o perfil do usuário no github e por último, uma listagem de todos os repositórios do usuário.
 
 ---
 
