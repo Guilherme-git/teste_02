@@ -6,6 +6,9 @@ const btnProfile = document.getElementsByClassName('btnProfile')[0]
 const card = document.getElementsByClassName('card')[0]
 
 function search() {
+    if(!name.value) {
+        return alert("Informe o nome do usuário")
+    }
     fetch(`https://api.github.com/users/${name.value}/repos`,{
         headers: {
             'Content-Type': 'application/json',
