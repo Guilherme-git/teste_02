@@ -13,7 +13,7 @@ function search() {
         headers: {
             'Content-Type': 'application/json',
             'Accept': 'application/vnd.github.v3.raw',
-            'Authorization': 'token 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'
+            'Authorization': 'token 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'
         }
     }).then(async res => {
         if(!res.ok) {
