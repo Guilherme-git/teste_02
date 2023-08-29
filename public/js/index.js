@@ -13,7 +13,6 @@ function search() {
         headers: {
             'Content-Type': 'application/json',
             'Accept': 'application/vnd.github.v3.raw',
-            'Authorization': 'token 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'
         }
     }).then(async res => {
         if(!res.ok) {
@@ -43,7 +42,7 @@ function search() {
 
         })
 
-    }).catch(e => alert("Usuário não encontrado"))
+    }).catch(e => alert("Você atingiu o limite de consultas na API, volte mais tarde!!"))
 }
 
 
